@@ -1,0 +1,26 @@
+﻿<Window x:Class="IzvrsiteljakaKucaApp.PRIV.DodajIzvrsiteljskuKucu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IzvrsiteljakaKucaApp.PRIV"
+        mc:Ignorable="d"
+        Title="DodajIzvrsiteljskuKucu" Height="285.798" Width="252.071">
+    <Grid x:Name="Grid">
+        <Label x:Name="label" Content="Ime Veze:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="47"/>
+        <Label x:Name="label_Copy" Content="Traje do:" HorizontalAlignment="Left" Margin="116,10,0,0" VerticalAlignment="Top" Width="47"/>
+        <Label x:Name="label_Copy1" Content="Lice odobrilo:" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label x:Name="label_Copy2" Content="ID Lica:" HorizontalAlignment="Left" Margin="112,58,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label x:Name="label_Copy3" Content="Organizaciona jedinica:" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Width="153"/>
+        <Label x:Name="label_Copy4" Content="ID izvrsitelja:" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="153"/>
+        <TextBox x:Name="txtImeVeze" HorizontalAlignment="Left" Height="23" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+        <TextBox x:Name="txtLiceOdobrilo" HorizontalAlignment="Left" Height="23" Margin="10,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+        <TextBox x:Name="txtIDLica" HorizontalAlignment="Left" Height="23" Margin="110,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <TextBox x:Name="txtOrganizacionaJednica" HorizontalAlignment="Left" Height="23" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+        <TextBox x:Name="txtIDIzvrsitelja" HorizontalAlignment="Left" Height="23" Margin="10,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+        <DatePicker x:Name="datePicker" HorizontalAlignment="Left" Margin="110,36,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="137,152,0,0" VerticalAlignment="Top" Width="75" Click="btnDodaj_Click"/>
+        <Button x:Name="btnNazad" Content="Nazad" HorizontalAlignment="Left" Margin="137,198,0,0" VerticalAlignment="Top" Width="75" Click="btnNazad_Click"/>
+
+    </Grid>
+</Window>

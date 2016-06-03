@@ -1,0 +1,30 @@
+﻿<Window x:Class="IzvrsiteljakaKucaApp.PRIV.Priv"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IzvrsiteljakaKucaApp.PRIV"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="Priv" Height="330" Width="700">
+    <Grid>
+        <ListView x:Name="lista" HorizontalAlignment="Left" Height="253" Margin="10,10,0,0" VerticalAlignment="Top" Width="567">
+            <ListView.View>
+                <GridView x:Name="Grid">
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnGrupe" Content="Grupe" HorizontalAlignment="Left" Margin="593,10,0,0" VerticalAlignment="Top" Width="90" Click="btnGrupe_Click"/>
+        <Button x:Name="btnIzvrsiteljskeKuce" Content="Izvrsiteljse Kuce" HorizontalAlignment="Left" Margin="593,35,0,0" VerticalAlignment="Top" Width="90" Click="btnIzvrsiteljskeKuce_Click"/>
+        <Button x:Name="btnTransakcije" Content="Transakcije" HorizontalAlignment="Left" Margin="593,60,0,0" VerticalAlignment="Top" Width="90" Click="btnTransakcije_Click"/>
+        <Button x:Name="btnDugovanja" Content="Dugovanja" HorizontalAlignment="Left" Margin="593,85,0,0" VerticalAlignment="Top" Width="90" Click="btnDugovanja_Click"/>
+        <Button x:Name="btnDodajDugovanje" Content="Dodaj Dugovanje" HorizontalAlignment="Left" Margin="10,268,0,0" VerticalAlignment="Top" Width="100" Click="btnDodajDugovanje_Click"/>
+        <Button x:Name="btnDodajIzvrsiteljskuKucu" Content="Dodaj Izv. Kucu" HorizontalAlignment="Left" Margin="115,268,0,0" VerticalAlignment="Top" Width="100" Click="btnDodajIzvrsiteljskuKucu_Click"/>
+        <Button x:Name="btnDodajIzvrsitelja" Content="Dodaj Izvrsitelja" HorizontalAlignment="Left" Margin="220,268,0,0" VerticalAlignment="Top" Width="100" Click="btnDodajIzvrsitelja_Click"/>
+        <Button x:Name="btnDodajLice" Content="Dodaj Lice" HorizontalAlignment="Left" Margin="325,268,0,0" VerticalAlignment="Top" Width="100" Click="btnDodajLice_Click"/>
+        <Button x:Name="btnDodajTransakciju" Content="Dodaj Transakciju" HorizontalAlignment="Left" Margin="430,268,0,0" VerticalAlignment="Top" Width="100" Click="btnDodajTransakciju_Click"/>
+        <Button x:Name="btnNazad" Content="Nazad" HorizontalAlignment="Left" Margin="582,268,0,0" VerticalAlignment="Top" Width="100" Click="btnNazad_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="IzvrsiteljakaKucaApp.Korisnik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IzvrsiteljakaKucaApp"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="Korisnik" Height="300" Width="650.0">
+    <Grid>
+        <ListView x:Name="lista" HorizontalAlignment="Left" Height="249" Margin="10,10,0,0" VerticalAlignment="Top" Width="512">
+            <ListView.View>
+                <GridView x:Name="Grid">
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnDugovanja" Content="Dugovanja" HorizontalAlignment="Left" Margin="533,82,0,0" VerticalAlignment="Top" Width="99" Click="btnDugovanja_Click"/>
+        <Button x:Name="btnLica" Content="Lica" HorizontalAlignment="Left" Margin="533,107,0,0" VerticalAlignment="Top" Width="99" Click="btnLica_Click"/>
+        <Button x:Name="btnIzvrsitelji" Content="Izvrsitelji" HorizontalAlignment="Left" Margin="533,132,0,0" VerticalAlignment="Top" Width="99" Click="btnIzvrsitelji_Click"/>
+        <Button x:Name="btnGrupe" Content="Grupe" HorizontalAlignment="Left" Margin="533,157,0,0" VerticalAlignment="Top" Width="99" Click="btnGrupe_Click"/>
+        <Button x:Name="btnJedinice" Content="Jedinice" HorizontalAlignment="Left" Margin="533,182,0,0" VerticalAlignment="Top" Width="99" Click="btnJedinice_Click"/>
+
+    </Grid>
+</Window>
