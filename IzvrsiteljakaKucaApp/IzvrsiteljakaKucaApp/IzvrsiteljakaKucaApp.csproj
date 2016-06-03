@@ -85,6 +85,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PRIV\DodajIzvrsitelja.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PRIV\DodajIzvrsiteljskuKucu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PRIV\DodajLice.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PRIV\DodajTransakciju.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PRIV\Priv.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -93,6 +109,18 @@
   <ItemGroup>
     <Compile Include="PRIV\DodajDugovanje.xaml.cs">
       <DependentUpon>DodajDugovanje.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PRIV\DodajIzvrsitelja.xaml.cs">
+      <DependentUpon>DodajIzvrsitelja.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PRIV\DodajIzvrsiteljskuKucu.xaml.cs">
+      <DependentUpon>DodajIzvrsiteljskuKucu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PRIV\DodajLice.xaml.cs">
+      <DependentUpon>DodajLice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PRIV\DodajTransakciju.xaml.cs">
+      <DependentUpon>DodajTransakciju.xaml</DependentUpon>
     </Compile>
     <Compile Include="PRIV\Priv.xaml.cs">
       <DependentUpon>Priv.xaml</DependentUpon>
